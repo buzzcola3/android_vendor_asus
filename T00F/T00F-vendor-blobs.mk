@@ -513,6 +513,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/libtbd.so:system/lib/libtbd.so \
     vendor/asus/T00F/proprietary/lib/libtcs.so:system/lib/libtcs.so \
     vendor/asus/T00F/proprietary/lib/libtinyxml.so:system/lib/libtinyxml.so \
+    vendor/asus/T00F/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     vendor/asus/T00F/proprietary/lib/libwidiedid.so:system/lib/libwidiedid.so \
     vendor/asus/T00F/proprietary/lib/libwidimediasink.so:system/lib/libwidimediasink.so \
     vendor/asus/T00F/proprietary/lib/libwidimedia.so:system/lib/libwidimedia.so \
