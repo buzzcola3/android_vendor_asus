@@ -435,7 +435,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/hw/hall_sensor.redhookbay.so:system/lib/hw/hall_sensor.redhookbay.so \
     vendor/asus/T00F/proprietary/lib/hw/hwcomposer.clovertrail.so:system/lib/hw/hwcomposer.clovertrail.so \
     vendor/asus/T00F/proprietary/lib/hw/keystore.vendor.clovertrail.so:system/lib/hw/keystore.vendor.clovertrail.so \
-    vendor/asus/T00F/proprietary/lib/hw/sensors.redhookbay.so:system/lib/hw/sensors.redhookbay.so \
+    vendor/asus/T00F/proprietary/lib/sensors.vendor.redhookbay.so:system/lib/sensors.vendor.redhookbay.so \
     vendor/asus/T00F/proprietary/lib/libArcsoft3DNR.so:system/lib/libArcsoft3DNR.so \
     vendor/asus/T00F/proprietary/lib/libArcsoftFaceEffect.so:system/lib/libArcsoftFaceEffect.so \
     vendor/asus/T00F/proprietary/lib/libArcsoftFaceTracking.so:system/lib/libArcsoftFaceTracking.so \
