@@ -524,6 +524,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/libwidiuibc.so:system/lib/libwidiuibc.so \
     vendor/asus/T00F/proprietary/lib/libxditk_AT.so:system/lib/libxditk_AT.so \
     vendor/asus/T00F/proprietary/lib/libxditk_ISP.so:system/lib/libxditk_ISP.so \
+    vendor/asus/T00F/proprietary/lib/pvr_drv_video.so:system/lib/pvr_drv_video.so \
     vendor/asus/T00F/proprietary/lib/parameter-framework-plugins/Audio/libaudience-subsystem.so:system/lib/parameter-framework-plugins/Audio/libaudience-subsystem.so \
     vendor/asus/T00F/proprietary/lib/parameter-framework-plugins/Audio/libimc-subsystem.so:system/lib/parameter-framework-plugins/Audio/libimc-subsystem.so \
     vendor/asus/T00F/proprietary/lib/parameter-framework-plugins/Audio/liblpe-subsystem.so:system/lib/parameter-framework-plugins/Audio/liblpe-subsystem.so \
