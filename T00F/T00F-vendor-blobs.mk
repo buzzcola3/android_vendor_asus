@@ -260,7 +260,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/arm/libblas.so:/system/lib/arm/libblas.so \
     vendor/asus/T00F/proprietary/lib/arm/libcamera_client.so:/system/lib/arm/libcamera_client.so \
     vendor/asus/T00F/proprietary/lib/arm/libcamera_metadata.so:/system/lib/arm/libcamera_metadata.so \
-    vendor/asus/T00F/proprietary/lib/libcommon_time_client.so:/system/lib/ibcommon_time_client.so \
+    vendor/asus/T00F/proprietary/lib/libcommon_time_client.so:/system/lib/libcommon_time_client.so \
     vendor/asus/T00F/proprietary/lib/arm/libcompiler_rt.so:/system/lib/arm/libcompiler_rt.so \
     vendor/asus/T00F/proprietary/lib/arm/libcrypto.so:/system/lib/arm/libcrypto.so \
     vendor/asus/T00F/proprietary/lib/arm/libc.so:/system/lib/arm/libc.so \
