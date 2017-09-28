@@ -536,14 +536,12 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/vendor/firmware/telephony/patch_nvm_THA.tlv:system/vendor/firmware/telephony/patch_nvm_THA.tlv \
     vendor/asus/T00F/proprietary/vendor/firmware/telephony/XMM_6360_A500CG_REV20_1515.03_LPDDR1_MIPI_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_6360_A500CG_REV20_1515.03_LPDDR1_MIPI_FLASHLESS.fls \
     vendor/asus/T00F/proprietary/vendor/firmware/telephony/XMM_6360_A600CG_REV20_1515.03_LPDDR1_MIPI_FLASHLESS.fls:system/vendor/firmware/telephony/XMM_6360_A600CG_REV20_1515.03_LPDDR1_MIPI_FLASHLESS.fls \
-    vendor/asus/T00F/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/asus/T00F/proprietary/vendor/lib/egl/libEGL_POWERVR_SGX544_115.so:system/vendor/lib/egl/libEGL_POWERVR_SGX544_115.so \
     vendor/asus/T00F/proprietary/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_115.so:system/vendor/lib/egl/libGLESv1_CM_POWERVR_SGX544_115.so \
     vendor/asus/T00F/proprietary/vendor/lib/egl/libGLESv2_POWERVR_SGX544_115.so:system/vendor/lib/egl/libGLESv2_POWERVR_SGX544_115.so \
     vendor/asus/T00F/proprietary/vendor/lib/hw/gralloc.redhookbay.so:system/vendor/lib/hw/gralloc.redhookbay.so \
     vendor/asus/T00F/proprietary/vendor/lib/hw/memtrack.redhookbay.so:system/vendor/lib/hw/memtrack.redhookbay.so \
     vendor/asus/T00F/proprietary/vendor/lib/libbt-vendor.so:system/vendor/lib/libbt-vendor.so \
-    vendor/asus/T00F/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
     vendor/asus/T00F/proprietary/vendor/lib/libglslcompiler.so:system/vendor/lib/libglslcompiler.so \
     vendor/asus/T00F/proprietary/vendor/lib/libIMGegl.so:system/vendor/lib/libIMGegl.so \
     vendor/asus/T00F/proprietary/vendor/lib/liboclcompiler.so:system/vendor/lib/liboclcompiler.so \
@@ -554,7 +552,5 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/vendor/lib/libsrv_init.so:system/vendor/lib/libsrv_init.so \
     vendor/asus/T00F/proprietary/vendor/lib/libsrv_um.so:system/vendor/lib/libsrv_um.so \
     vendor/asus/T00F/proprietary/vendor/lib/libusc.so:system/vendor/lib/libusc.so \
-    vendor/asus/T00F/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
-    vendor/asus/T00F/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
-    vendor/asus/T00F/proprietary/vendor/lib/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so \
-    vendor/asus/T00F/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so
+    vendor/asus/T00F/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
+    vendor/asus/T00F/proprietary/vendor/lib/mediadrm/libplayreadydrmplugin.so:system/vendor/lib/mediadrm/libplayreadydrmplugin.so 
