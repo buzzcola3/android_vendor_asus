@@ -287,6 +287,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/arm/libicui18n.so:/system/lib/arm/libicui18n.so \
     vendor/asus/T00F/proprietary/lib/arm/libicuuc.so:/system/lib/arm/libicuuc.so \
     vendor/asus/T00F/proprietary/lib/arm/libimg_utils.so:/system/lib/arm/libimg_utils.so \
+    vendor/asus/T00F/proprietary/lib/libinputflinger.so:/system/lib/libinputflinger.so \
     vendor/asus/T00F/proprietary/lib/arm/libinput.so:/system/lib/arm/libinput.so \
     vendor/asus/T00F/proprietary/lib/arm/libjnigraphics.so:/system/lib/arm/libjnigraphics.so \
     vendor/asus/T00F/proprietary/lib/arm/libjpeg.so:/system/lib/arm/libjpeg.so \
