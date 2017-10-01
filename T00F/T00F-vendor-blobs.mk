@@ -56,7 +56,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/etc/atomisp/01s5k8aay.cpf:system/etc/atomisp/01s5k8aay.cpf \
     vendor/asus/T00F/proprietary/etc/binfmt_misc/arm_dyn:system/etc/binfmt_misc/arm_dyn \
     vendor/asus/T00F/proprietary/etc/binfmt_misc/arm_exe:system/etc/binfmt_misc/arm_exe \
-    vendor/asus/T00F/proprietary/etc/binfmt_misc/disable:system/etc/binfmt_misc/disable \
     vendor/asus/T00F/proprietary/etc/camera_profiles_a500cg.xml:system/etc/camera_profiles_a500cg.xml \
     vendor/asus/T00F/proprietary/etc/camera_profiles_a600cg.xml:system/etc/camera_profiles_a600cg.xml \
     vendor/asus/T00F/proprietary/etc/catalog/DSDS_A500CG/platform/init.props:system/etc/catalog/DSDS_A500CG/platform/init.props \
@@ -250,17 +249,18 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/arm/libandroid.so:/system/lib/arm/libandroid.so \
     vendor/asus/T00F/proprietary/lib/arm/libart.so:/system/lib/arm/libart.so \
     vendor/asus/T00F/proprietary/lib/arm/libaudioflinger.so:/system/lib/arm/libaudioflinger.so \
+    vendor/asus/T00F/proprietary/lib/arm/libaudioresampler.so:/system/lib/arm/libaudioresampler.so \
     vendor/asus/T00F/proprietary/lib/arm/libaudiospdif.so:/system/lib/arm/libaudiospdif.so \
     vendor/asus/T00F/proprietary/lib/arm/libaudioutils.so:/system/lib/arm/libaudioutils.so \
     vendor/asus/T00F/proprietary/lib/arm/libbacktrace.so:/system/lib/arm/libbacktrace.so \
     vendor/asus/T00F/proprietary/lib/arm/libbase.so:/system/lib/arm/libbase.so \
-    vendor/asus/T00F/proprietary/lib/libbcc.so:/system/lib/libbcc.so \
+    vendor/asus/T00F/proprietary/lib/arm/libbcc.so:/system/lib/arm/libbcc.so \
     vendor/asus/T00F/proprietary/lib/arm/libbcinfo.so:/system/lib/arm/libbcinfo.so \
     vendor/asus/T00F/proprietary/lib/arm/libbinder.so:/system/lib/arm/libbinder.so \
     vendor/asus/T00F/proprietary/lib/arm/libblas.so:/system/lib/arm/libblas.so \
     vendor/asus/T00F/proprietary/lib/arm/libcamera_client.so:/system/lib/arm/libcamera_client.so \
     vendor/asus/T00F/proprietary/lib/arm/libcamera_metadata.so:/system/lib/arm/libcamera_metadata.so \
-    vendor/asus/T00F/proprietary/lib/libcommon_time_client.so:/system/lib/ibcommon_time_client.so \
+    vendor/asus/T00F/proprietary/lib/arm/libcommon_time_client.so:/system/lib/arm/libcommon_time_client.so \
     vendor/asus/T00F/proprietary/lib/arm/libcompiler_rt.so:/system/lib/arm/libcompiler_rt.so \
     vendor/asus/T00F/proprietary/lib/arm/libcrypto.so:/system/lib/arm/libcrypto.so \
     vendor/asus/T00F/proprietary/lib/arm/libc.so:/system/lib/arm/libc.so \
@@ -268,14 +268,17 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/arm/libcutils.so:/system/lib/arm/libcutils.so \
     vendor/asus/T00F/proprietary/lib/arm/libdl.so:/system/lib/arm/libdl.so \
     vendor/asus/T00F/proprietary/lib/arm/libdrmframework.so:/system/lib/arm/libdrmframework.so \
-    vendor/asus/T00F/proprietary/vendor/lib/libeffects.so:/system/vendor/lib/libeffects.so \
+    vendor/asus/T00F/proprietary/lib/arm/libeffects.so:/system/lib/arm/libeffects.so \
     vendor/asus/T00F/proprietary/lib/arm/libEGL.so:/system/lib/arm/libEGL.so \
+    vendor/asus/T00F/proprietary/lib/arm/libemoji.so:/system/lib/arm/libemoji.so \
     vendor/asus/T00F/proprietary/lib/arm/libETC1.so:/system/lib/arm/libETC1.so \
     vendor/asus/T00F/proprietary/lib/arm/libexpat.so:/system/lib/arm/libexpat.so \
-    vendor/asus/T00F/proprietary/lib/libFFTEm.so:/system/lib/libFFTEm.so \
-    vendor/asus/T00F/proprietary/lib/libfilterfw.so:/system/lib/libfilterfw.so \
-    vendor/asus/T00F/proprietary/lib/libfilterpack_imageproc.so:/system/lib/libfilterpack_imageproc.so \
+    vendor/asus/T00F/proprietary/lib/arm/libFFTEm.so:/system/lib/arm/libFFTEm.so \
+    vendor/asus/T00F/proprietary/lib/arm/libfilterfw.so:/system/lib/arm/libfilterfw.so \
+    vendor/asus/T00F/proprietary/lib/arm/libfilterpack_imageproc.so:/system/lib/arm/libfilterpack_imageproc.so \
     vendor/asus/T00F/proprietary/lib/arm/libft2.so:/system/lib/arm/libft2.so \
+    vendor/asus/T00F/proprietary/lib/arm/libgabi++.so:/system/lib/arm/libgabi++.so \
+    vendor/asus/T00F/proprietary/lib/arm/libGLES_trace.so:/system/lib/arm/libGLES_trace.so \
     vendor/asus/T00F/proprietary/lib/arm/libGLESv1_CM.so:/system/lib/arm/libGLESv1_CM.so \
     vendor/asus/T00F/proprietary/lib/arm/libGLESv2.so:/system/lib/arm/libGLESv2.so \
     vendor/asus/T00F/proprietary/lib/arm/libGLESv3.so:/system/lib/arm/libGLESv3.so \
@@ -287,11 +290,11 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/arm/libicui18n.so:/system/lib/arm/libicui18n.so \
     vendor/asus/T00F/proprietary/lib/arm/libicuuc.so:/system/lib/arm/libicuuc.so \
     vendor/asus/T00F/proprietary/lib/arm/libimg_utils.so:/system/lib/arm/libimg_utils.so \
-    vendor/asus/T00F/proprietary/lib/libinputflinger.so:/system/lib/libinputflinger.so \
+    vendor/asus/T00F/proprietary/lib/arm/libinputflinger.so:/system/lib/arm/libinputflinger.so \
     vendor/asus/T00F/proprietary/lib/arm/libinput.so:/system/lib/arm/libinput.so \
     vendor/asus/T00F/proprietary/lib/arm/libjnigraphics.so:/system/lib/arm/libjnigraphics.so \
     vendor/asus/T00F/proprietary/lib/arm/libjpeg.so:/system/lib/arm/libjpeg.so \
-    vendor/asus/T00F/proprietary/lib/libLLVM.so:/system/lib/libLLVM.so \
+    vendor/asus/T00F/proprietary/lib/arm/libLLVM.so:/system/lib/arm/libLLVM.so \
     vendor/asus/T00F/proprietary/lib/arm/liblog.so:/system/lib/arm/liblog.so \
     vendor/asus/T00F/proprietary/lib/arm/libmediandk.so:/system/lib/arm/libmediandk.so \
     vendor/asus/T00F/proprietary/lib/arm/libmedia.so:/system/lib/arm/libmedia.so \
@@ -303,11 +306,13 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/arm/libnativehelper.so:/system/lib/arm/libnativehelper.so \
     vendor/asus/T00F/proprietary/lib/arm/libnbaio.so:/system/lib/arm/libnbaio.so \
     vendor/asus/T00F/proprietary/lib/arm/libnetd_client.so:/system/lib/arm/libnetd_client.so \
-    vendor/asus/T00F/proprietary/lib/libnetutils.so:/system/lib/libnetutils.so \
-    vendor/asus/T00F/proprietary/lib/libnl.so:/system/lib/libnl.so \
+    vendor/asus/T00F/proprietary/lib/arm/libnetutils.so:/system/lib/arm/libnetutils.so \
+    vendor/asus/T00F/proprietary/lib/arm/libnfc_ndef.so:/system/lib/arm/libnfc_ndef.so \
+    vendor/asus/T00F/proprietary/lib/arm/libnl.so:/system/lib/arm/libnl.so \
     vendor/asus/T00F/proprietary/lib/arm/libOpenMAXAL.so:/system/lib/arm/libOpenMAXAL.so \
     vendor/asus/T00F/proprietary/lib/arm/libOpenSLES.so:/system/lib/arm/libOpenSLES.so \
-    vendor/asus/T00F/proprietary/lib/libopus.so:/system/lib/libopus.so \
+    vendor/asus/T00F/proprietary/lib/arm/libopus.so:/system/lib/arm/libopus.so \
+    vendor/asus/T00F/proprietary/lib/arm/libpcre.so:/system/lib/arm/libpcre.so \
     vendor/asus/T00F/proprietary/lib/arm/libpdfium.so:/system/lib/arm/libpdfium.so \
     vendor/asus/T00F/proprietary/lib/arm/libpixelflinger.so:/system/lib/arm/libpixelflinger.so \
     vendor/asus/T00F/proprietary/lib/arm/libpng.so:/system/lib/arm/libpng.so \
@@ -330,21 +335,23 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/arm/libspeexresampler.so:/system/lib/arm/libspeexresampler.so \
     vendor/asus/T00F/proprietary/lib/arm/libsqlite.so:/system/lib/arm/libsqlite.so \
     vendor/asus/T00F/proprietary/lib/arm/libssl.so:/system/lib/arm/libssl.so \
-    vendor/asus/T00F/proprietary/lib/libstagefright_enc_common.so:/system/lib/libstagefright_enc_common.so \
+    vendor/asus/T00F/proprietary/lib/arm/libstagefright_avc_common.so:/system/lib/arm/libstagefright_avc_common.so \
+    vendor/asus/T00F/proprietary/lib/arm/libstagefright_enc_common.so:/system/lib/arm/libstagefright_enc_common.so \
     vendor/asus/T00F/proprietary/lib/arm/libstagefright_foundation.so:/system/lib/arm/libstagefright_foundation.so \
     vendor/asus/T00F/proprietary/lib/arm/libstagefright_http_support.so:/system/lib/arm/libstagefright_http_support.so \
     vendor/asus/T00F/proprietary/lib/arm/libstagefright_omx.so:/system/lib/arm/libstagefright_omx.so \
     vendor/asus/T00F/proprietary/lib/arm/libstagefright.so:/system/lib/arm/libstagefright.so \
+    vendor/asus/T00F/proprietary/lib/arm/libstagefright_yuv.so:/system/lib/arm/libstagefright_yuv.so \
     vendor/asus/T00F/proprietary/lib/arm/libstdc++.so:/system/lib/arm/libstdc++.so \
     vendor/asus/T00F/proprietary/lib/arm/libsurfaceflinger.so:/system/lib/arm/libsurfaceflinger.so \
     vendor/asus/T00F/proprietary/lib/arm/libsync.so:/system/lib/arm/libsync.so \
-    vendor/asus/T00F/proprietary/lib/libsysutils.so:/system/lib/libsysutils.so \
+    vendor/asus/T00F/proprietary/lib/arm/libsysutils.so:/system/lib/arm/libsysutils.so \
     vendor/asus/T00F/proprietary/lib/arm/libui.so:/system/lib/arm/libui.so \
     vendor/asus/T00F/proprietary/lib/arm/libunwind.so:/system/lib/arm/libunwind.so \
     vendor/asus/T00F/proprietary/lib/arm/libusbhost.so:/system/lib/arm/libusbhost.so \
     vendor/asus/T00F/proprietary/lib/arm/libutils.so:/system/lib/arm/libutils.so \
     vendor/asus/T00F/proprietary/lib/arm/libvorbisidec.so:/system/lib/arm/libvorbisidec.so \
-    vendor/asus/T00F/proprietary/lib/libwebrtc_audio_preprocessing.so:/system/lib/libwebrtc_audio_preprocessing.so \
+    vendor/asus/T00F/proprietary/lib/arm/libwebrtc_audio_coding.so:/system/lib/arm/libwebrtc_audio_coding.so \
     vendor/asus/T00F/proprietary/lib/arm/libwilhelm.so:/system/lib/arm/libwilhelm.so \
     vendor/asus/T00F/proprietary/lib/arm/libz.so:/system/lib/arm/libz.so \
     vendor/asus/T00F/proprietary/lib/arm/linker:/system/lib/arm/linker \
@@ -375,6 +382,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/T00F/proprietary/lib/arm/nb/libnativehelper.so:/system/lib/arm/nb/libnativehelper.so \
     vendor/asus/T00F/proprietary/lib/arm/nb/libOpenMAXAL.so:/system/lib/arm/nb/libOpenMAXAL.so \
     vendor/asus/T00F/proprietary/lib/arm/nb/libOpenSLES.so:/system/lib/arm/nb/libOpenSLES.so \
+    vendor/asus/T00F/proprietary/lib/arm/nb/libpcre.so:/system/lib/arm/nb/libpcre.so \
     vendor/asus/T00F/proprietary/lib/arm/nb/libpixelflinger.so:/system/lib/arm/nb/libpixelflinger.so \
     vendor/asus/T00F/proprietary/lib/arm/nb/libskia.so:/system/lib/arm/nb/libskia.so \
     vendor/asus/T00F/proprietary/lib/arm/nb/libsqlite.so:/system/lib/arm/nb/libsqlite.so \
